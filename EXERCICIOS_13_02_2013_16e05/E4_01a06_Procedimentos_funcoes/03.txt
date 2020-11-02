@@ -1,0 +1,19 @@
+Var
+Numero, Potencia: Inteiro
+Resultado: Real
+
+Resultado=1
+
+Para I=1 até Potencia Faça
+
+Resultado = Resultado * Numero
+
+Fim-Para
+
+
+Ps.: Mas convém utilizar as próprias funções matemáticas para calcular a potência. Por exemplo, o mesmo código pode ser executado com a função EXP e LN, da seguinte forma:
+
+Resultado= EXP ( Potencia * LN(Numero) ) ;
+
+EXP = exponencial e LN = logaritmo natural
+Detalhe, a função acima funciona com potencias não-inteiras, ao contrário do algorítmo.

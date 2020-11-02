@@ -1,0 +1,41 @@
+Algoritmo Calculadora;
+var
+  num1, num2 : inteiro;
+  resultado : real;
+  operacao : char;
+  opValida : Lógico;
+Início
+  opValida := Verdadeiro;
+
+  Imprimir("Informe um valor:");
+  Ler(num1);
+  Imprimir("Informe outro valor:");
+  Ler(num2);
+  Imprimir("Informe a operação:");
+  Ler(operacao);
+ 
+  Se (operacao = '+') então
+    resultado := num1 + num2;
+  Senão
+    Se (operacao = '-') Então
+      resultado := num1 - num2;
+    Senão
+      Se (operacao = '*') Então
+        resultado := num1 * num2;
+      Senão 
+        Se (operacao = '/') Então
+          resultado := num1 / num2;
+        Senão
+          Início
+            Imprimir("Operação não reconhecida!");
+            opValida := falso;
+          Fim;
+        FimSe;
+      FimSe;
+    FimSe;
+  FimSe;
+
+  Se (opValida = Verdadeiro) Então
+    Imprimir(num1, operacao, num2, " = ", resultado);
+  FimSe;
+Fim.

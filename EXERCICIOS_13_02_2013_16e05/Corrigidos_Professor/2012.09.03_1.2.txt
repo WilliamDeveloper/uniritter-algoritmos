@@ -1,0 +1,20 @@
+Algoritmo Fatorial;
+var
+  num : inteiro;
+  fat : inteiro;
+  i   : inteiro;
+Início
+  fat := 1;
+  Imprimir("Informe um número: ");
+  Ler(numero);
+
+  Se (numero = 0) Então
+    fat := 1;
+  Senão
+    para i de 1 até numero passo 1 faça
+      fat := fat * i;
+    FimPara;
+  FimSe;
+
+  Imprimir("O fatorial de ", numero, " é: ", fat):
+Fim.

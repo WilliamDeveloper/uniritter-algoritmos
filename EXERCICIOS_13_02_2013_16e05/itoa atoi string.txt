@@ -1,0 +1,96 @@
+
+
+
+
+itoa - integer to ascii
+atoi - ascii to integer
+int i = 10;  
+char buf[10];  
+  
+// inteiro para string. Até 10 algarísmos.  
+sprintf(buf, "%i", i);  
+  
+// string para inteiro  
+i = atoi(buf); 
+
+ ========================================
+
+ 
+
+int main(int argc, char *argv[])
+{
+  struct tdata
+  {
+    int dia;
+    int mes;
+    int ano;
+  };
+  
+  
+  struct tdata data1,data2;
+  char strano[40];
+  char strdia[40];
+  char strmes[40];
+  char strcat1[40];
+  int res;
+  
+  char strano1[40];
+  char strdia1[40];
+  char strmes1[40];
+  char strcat2[40];
+  int res1;
+
+  // ler data1
+  printf("Ano:");
+  scanf("%i",&data1.ano);
+  printf("Mes:");
+  scanf("%i",&data1.mes);
+  printf("Dia:");
+  scanf("%i",&data1.dia);
+  printf("\n\n");
+  
+   // ler data2
+  printf("Ano:");
+  scanf("%i",&data2.ano);
+  printf("Mes:");
+  scanf("%i",&data2.mes);
+  printf("Dia:");
+  scanf("%i",&data2.dia);
+   
+   // converte data1 para string
+  itoa(data1.ano,strano,10);
+  itoa(data1.dia,strdia,10);
+  itoa(data1.mes,strmes,10);
+  
+   // converte data2 para string
+  itoa(data2.ano,strano1,10);
+  itoa(data2.dia,strdia1,10);
+  itoa(data2.mes,strmes1,10);
+  
+  printf("%s",strdia1);
+  // concatena data1 para strcat1
+  strcpy(strcat1, strano);
+  strcat(strcat1, strmes);
+  strcat(strcat1, strdia);
+  
+  // concatena data2 para strcat2
+  strcpy(strcat2, strano1);
+  strcat(strcat2, strmes1);
+  strcat(strcat2, strdia1);
+  
+  res=atoi(strcat1); // converte a string1 para inteiro
+  res1=atoi(strcat2); // converte a string2 para inteiro
+  printf("\n\n");
+  
+   printf("%i\n",res);
+   printf("%i\n",res1);
+  // Compara as datas
+  if (res>res1)
+  {printf("A Data1 e maior\n\n");}
+  else
+  {printf("A Data2 e maior\n\n");}
+  
+  
+  system("PAUSE"); 
+  return 0;
+}

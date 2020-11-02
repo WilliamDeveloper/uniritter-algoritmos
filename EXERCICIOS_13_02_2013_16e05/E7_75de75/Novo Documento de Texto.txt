@@ -1,0 +1,51 @@
+03 -
+
+algoritmo "semnome"
+// Função : 3) Ler uma matriz 6 x 6 e atribuir o valor 0 para os valores negativos
+// encontrados fora das diagonais principal e secundaria
+// Autor :  Daniel
+// Data : 9/8/2011
+// Seção de Declarações 
+var
+   matriz: vetor [01..06, 01..06] de inteiro
+   X, Y, num: inteiro
+   
+inicio
+   Para X := 01 ate 06 faca
+      Para Y := 01 ate 06 faca
+          escreva("Digite um número inteiro: [", X, ",", Y, "] ")
+          leia (num)
+          matriz[X,Y] := num
+      fimpara
+   fimpara
+   escreval ("______MATRIZ______")
+   Para X := 01 ate 06 faca
+      Para Y := 01 ate 06 faca
+          escreva (matriz[X,Y]," ")
+      fimpara
+          escreval (" ")
+   fimpara
+   escreval ("______MATRIZ_______")
+   Para X := 01 ate 06 faca
+      Para Y := 01 ate 06 faca
+         Se (X / Y = 1) entao
+            matriz[X,Y] := matriz[X,Y]
+         Senao
+            Se (X + Y = 7) entao
+               matriz[X,Y] := matriz[X,Y]
+            senao
+               Se (matriz[X,Y] < 0) entao
+                  matriz[X,Y] :=  0
+               fimse
+            fimse
+         fimse
+      fimpara
+         escreval (" ")
+   fimpara
+   Para X := 01 ate 06 faca
+   Para Y := 01 ate 06 faca
+          escreva (matriz[X,Y]," ")
+      fimpara
+          escreval (" ")
+   fimpara
+fimalgoritmo

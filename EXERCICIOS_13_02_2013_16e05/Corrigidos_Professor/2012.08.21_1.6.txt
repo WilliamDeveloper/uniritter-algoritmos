@@ -1,0 +1,11 @@
+Algoritmo Esfera;
+const
+  PI = 3.1415;
+var
+  raio, volume: real;
+Início
+  Imprimir("Informe o valor do raio da esfera: ");
+  Ler(raio);
+  volume <- 4/3 * PI * Pot(raio, 3);
+  Imprimir("O volume da esfera informada é: ", volume);
+Fim.

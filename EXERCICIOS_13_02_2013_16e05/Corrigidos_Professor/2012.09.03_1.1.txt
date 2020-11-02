@@ -1,0 +1,18 @@
+Algoritmo Raiz;
+var
+  numero : inteiro;
+  i : inteiro;
+  ultimo : inteiro;
+Início
+  Imprimir("Informe um número: ");
+  Ler(numero);
+
+  Para i de 1 até numero passo 1 faça
+    Se (i * i <= numero) então
+      ultimo := i;
+    FimSe;
+  FimPara;
+
+  Imprimir("O número inteiro que mais se aproxima da raiz de ",
+    numero, " é: ", ultimo);
+Fim.

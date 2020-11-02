@@ -1,0 +1,24 @@
+Algoritmo EscreverMes;
+var
+  mes : inteiro;
+Início
+  Imprimir("Informe o número do mês desejado:");
+  Ler(mes);
+
+  Escolha (mes)
+    1: Imprimir("Janeiro");
+    2: Imprimir("Fevereiro");
+    3: Imprimir("Março");
+    4: Imprimir("Abril");
+    5: Imprimir("Maio");
+    6: Imprimir("Junho");
+    7: Imprimir("Julho");
+    8: Imprimir("Agosto");
+    9: Imprimir("Setembro");
+    10: Imprimir("Outubro");
+    11: Imprimir("Novembro");
+    12: Imprimir("Dezembro");
+    Senão
+      Imprimir("Mês inválido.");
+  FimEscolha;
+Fim.

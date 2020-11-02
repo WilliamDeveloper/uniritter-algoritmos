@@ -1,0 +1,3 @@
+toolchain exececutables
+compiler instalation directory
+C:\Users\TEMP\Desktop\CodeBlocks\MinGW

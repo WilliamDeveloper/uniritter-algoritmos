@@ -1,0 +1,19 @@
+Algoritmo Exp;
+var
+  base, expoente, pot  inteiro;
+  cont  inteiro;
+Início
+  Imprimir(Informe a base );
+  Ler(base);
+  Imprimir(Informe o expoente );
+  Ler(expoente);
+  
+  cont = 1;
+  pot  = 1;
+  Enquanto cont = expoente faça
+    pot = pot  base;
+    cont = cont + 1;
+  FimEnquanto;
+
+  Imprimir(base,  elevado na , expoente,  é igual a , pot);
+Fim.

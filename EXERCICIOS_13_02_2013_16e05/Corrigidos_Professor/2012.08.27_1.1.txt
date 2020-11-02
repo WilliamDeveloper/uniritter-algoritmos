@@ -1,0 +1,16 @@
+Algoritmo Exerc_1;
+const
+  anoAtual = 2012;
+var 
+  ano, idade : inteiro;
+início
+  Imprimir("Informe o seu ano de nascimento: ");
+  Ler(ano);
+  idade := anoAtual - ano;
+ 
+  Imprimir("Sua idade é: ", idade);  
+
+  Se (idade >= 16) então
+    Imprimir("Você já está apto a votar.");
+  FimSe;
+Fim.

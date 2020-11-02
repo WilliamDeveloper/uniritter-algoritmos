@@ -1,0 +1,24 @@
+if(turmas[i].media>turma[j].media{
+aux=turma[i];
+turmas[i]=turmas[j];
+turmas[j]=aux;
+}
+
+============
+regturma=registro
+turma:string;
+aluno:vetor[1..50] de regaluno;
+fimreg
+===
+turmas:vetor[1..50] de regturma;
+turmas[1].aluno[5].media
+tipo
+regaluno=registro
+mat,nome,naturalidade,turma:string;
+serie,ano:inteiro;
+sexo:char;
+aprovado:logico;
+media:real
+fimregistro;
+
+

@@ -1,0 +1,27 @@
+Boa tarde, William.
+
+Na verdade, a resposta para todas as perguntas é SIM.
+
+Mas temos dois poréns:
+
+1) Se o dividendo for 0, teremos um erro na divisão, pois não é possível dividir por 0;
+
+2) Eu consigo dividir um inteiro por um real, porém, se a o tipo da variável que for receber o resultado desta divisão for inteiro, realmente teremos um problema.
+
+Resumindo, verifique se o valor do dividendo não é igual a zero e, se for dividir um inteiro por um real ou vice-versa, faça este resultado ser armazenado em uma variável real.
+
+Espero ter esclarecido a dúvida de vocês.
+
+Abraço.
+
+Fernando
+
+Citando william clarck <william_clarck@hotmail.com>:
+
+>
+> Boa Tarde!Estamos com um problema no nosso trabalho que gostaria de esclarecer ele de forma generica antes...
+> divisoes possiveis em :
+> inteiro DIVIDE POR inteiro ?inteiro DIVIDE POR real ?Real DIVIDE POR inteiro ?Real DIVIDE POR real ?
+> o que acontece no nosso programa eh ke eu tenho uma variavel real que ta recebendo um valor acumulado em real e dividindo em valor inteiro do contador...o programa na hora de compilar gera um erro que diz o seguinte..."INVALID FLOATING POINT OPERATION" .. no c esse problema eh corrigido com uso do TYPE CASTING forçando a divisao a dar certo... ja no algoritmo nao faço ideia e nao axei nada que ajudasse na internet ainda.. qual seria a soluçao para isso sabendo que a nota eh real.. e o contador eh inteiro ?
+> no aguardo ....
+>

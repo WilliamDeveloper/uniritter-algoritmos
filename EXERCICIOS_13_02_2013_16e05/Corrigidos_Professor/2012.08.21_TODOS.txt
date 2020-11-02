@@ -1,0 +1,99 @@
+Algoritmo Ex_3;
+var
+  nome: String[50];
+  idade: integer;
+Início
+  Imprimir("Informe seu nome: ");
+  Ler(nome);
+  Imprimir("Informe sua idade: ");
+  Ler(idade);
+  Imprimir(nome, ", você terá ", idade+11, " anos em 2023.");
+Fim.
+
+Algoritmo Ex_4;
+var
+  codigo, filhos : inteiro;
+  horas, valorHora, salario : real;
+Início
+  Imprimir("Informe o seu código: ");
+  Ler(codigo);
+  Imprimir("Informe a quantidade de horas trabalhadas no mês: ");
+  Ler(horas);
+  Imprimir("Informe o valor da sua hora: ");
+  Ler(valorHora);
+  Imprimir("Informe a quantidade de filhos menor que 14 anos: ");
+  Ler(filhos);
+  salario <- horas * valorHora + filhos * 15;
+  Imprimir("O funcionário de código ", codigo, 
+     "recerá o salário de R$", salario);
+Fim.
+
+Algoritmo Ex_5;
+const
+  PI = 3.1415;
+var
+  A, B, C: real;
+  aT, aQ, aC, aR: real;
+Início
+  Imprimir("Informe o valor de A: ");
+  Ler(A);
+  Imprimir("Informe o valor de B: ");
+  Ler(B);
+  Imprimir("Informe o valor de C: ");
+  Ler(C);
+  aT <- A * B / 2;
+  aC <- PI * Pot(C,2);
+  aQ <- Pot(B, 2);
+  aR <- A * B;
+  Imprimir("A área do triângulo de lado ", A, " e altura ", B,
+    " é: ", aT);
+  Imprimir("A área do círculo de raio ", C, " é: ", aC);
+  Imprimir("A área do quadrado de lado ", B, " é: ", aQ);
+  Imprimir("A área do retângulo de base ", A, " e altura", B, 
+    " é: ", aR);
+Fim.
+
+Algoritmo Raizes;
+var
+  A, B, C: real;
+  x1, x2, delta: real;
+Início
+  Imprimir("Informe o valor de A: ");
+  Ler(A);
+  Imprimir("Informe o valor de B: ");
+  Ler(B);
+  Imprimir("Informe o valor de C: ");
+  Ler(C);
+  delta <- Pot(B,2) - 4 * A * C;
+  x1 <- -B + Rad(delta) / 2 * A;
+  x2 <- -B - Rad(delta) / 2 * A;
+  Imprimir("As raízes da equação informada são: ", x1, " e ", x2, ".");
+Fim.
+
+Algoritmo Distancia;
+var 
+  x1, y1, x2, y2, d: real;
+Início
+  Imprimir("Informe a coordenada X do ponto 1: ");
+  Ler(x1);
+  Imprimir("Informe a coordenada Y do ponto 1: ");
+  Ler(y1);
+  Imprimir("Informe a coordenada X do ponto 2: ");
+  Ler(x2);
+  Imprimir("Informe a coordenada Y do ponto 2: ");
+  Ler(y2);
+  d <- rad(pot(x2-x1, 2) + pot(y2-y1,2));
+  Imprimir("A distância entre os pontos informados é: ", d);
+Fim.
+
+Algoritmo Esfera;
+const
+  PI = 3.1415;
+var
+  raio, volume: real;
+Início
+  Imprimir("Informe o valor do raio da esfera: ");
+  Ler(raio);
+  volume <- 4/3 * PI * Pot(raio, 3);
+  Imprimir("O volume da esfera informada é: ", volume);
+Fim.

@@ -1,0 +1,23 @@
+Algoritmo AumentoSalarial;
+var
+  nome    : String[50];
+  categ   : char;
+  salario : real;
+Início
+  Imprimir("Informe seu nome: ");
+  Ler(nome);
+  Imprimir("Informe seu categoria: ");
+  Ler(categ);
+  Imprimir("Informe seu salario: ");
+  Ler(salario);
+
+  Escolha categ 
+    'A', 'C', 'F', 'H': salario           := salario * 1.1;
+    'B', 'D', 'E', 'I', 'J', 'T': salario := salario * 1.16;
+    'K', 'R': salario                     := salario * 1.25;
+    'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S': salario := salario * 1.35;
+    'U', 'V', 'X', 'Y', 'W', 'Z'          : salario := salario * 1.5;
+  FimEscolha;
+
+  Imprimir(nome, " seu novo salário será: ", salario);
+Fim.

@@ -1,0 +1,2 @@
+itoa - integer to ascii
+atoi - ascii to integer

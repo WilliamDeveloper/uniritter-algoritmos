@@ -1,0 +1,3 @@
+No subconjunto dos positivos, o zero é desprezado.
+
+Para o zero ser incluído, o subconjunto deve ser dos não-positivos ou dos não-negativos

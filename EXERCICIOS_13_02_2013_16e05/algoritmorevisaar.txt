@@ -1,0 +1,69 @@
+para var de 1 ate 10 passo 10 faça
+// nao precisa inicio e fim entre os comandos
+comando 
+comando
+fimpara;
+fim.
+
+algoritmo exercicio1;
+const
+tam=100;
+var
+i:inteiro
+para i de 1 ate tam passo 1 faca
+se (i mod2) =0 entao
+imprimir(i, " e  um numero para.");
+senao
+imprimir(i," é um numero impar.");
+fimse;
+fimpara;
+fim.
+
+========================================
+elabore um algoritmo que calcule um numero inteiro que
+mais se aproxima da raiz quadrada de um numero fornecido pelo usuario.
+
+
+Algoritmo Ninteiro;
+var
+numero,ultimo:inteiro;
+inicio
+imprimir ("informe um numero: ");
+leia(numero);
+	para i 1  ate numero passo 1 faça
+	se(i*i<=numero) entao
+	ultimo:=i;
+	fimse;
+	fimpara;
+	imprimir("o numero inteiro que mais se aproxima da raiz quadrada",numero, "é:",ultimo);
+
+fim.
+
+
+
+==========================================
+elabore um algoritmo que calcule N!(fatorial de N) , 
+sendo que o valor inteiro de N é fornecido pelo usuario.
+sabendo que 
+N!=1 x 2 x 3 x .... x(N-1)x N;
+0!=1, por definicao.
+
+Algoritmo fatorial;
+var
+n:inteiro;
+inicio
+imprimir("informe o fatorial:");
+leia (n);
+fat<=1;
+para i de n 
+
+ n*n-1
+---
+
+
+
+
+
+==================================================
+escreva um algoritmo que leia um conjunto de 20 numeros inteiros e 
+mostre qual foi o maior e o menor valor fornecido.

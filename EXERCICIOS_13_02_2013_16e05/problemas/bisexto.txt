@@ -1,0 +1,14 @@
+Regra do bissexto
+
+Sejam R4   resto da divis˜ao do ano por 4; 
+
+R100   resto da divis˜ao do ano por 100 e
+
+R400   resto da divis˜ao do ano por 400.
+
+
+
+
+SE R4=0 E ((R100 <> 0) OU (R400 = 0)) 
+
+o ano ´e bissexto sen˜ao n˜ao ´e.

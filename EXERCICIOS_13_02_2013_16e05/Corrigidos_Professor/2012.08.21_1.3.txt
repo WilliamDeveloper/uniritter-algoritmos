@@ -1,0 +1,24 @@
+Algoritmo Ex_5;
+const
+  PI = 3.1415;
+var
+  A, B, C: real;
+  aT, aQ, aC, aR: real;
+Início
+  Imprimir("Informe o valor de A: ");
+  Ler(A);
+  Imprimir("Informe o valor de B: ");
+  Ler(B);
+  Imprimir("Informe o valor de C: ");
+  Ler(C);
+  aT <- A * B / 2;
+  aC <- PI * Pot(C,2);
+  aQ <- Pot(B, 2);
+  aR <- A * B;
+  Imprimir("A área do triângulo de lado ", A, " e altura ", B,
+    " é: ", aT);
+  Imprimir("A área do círculo de raio ", C, " é: ", aC);
+  Imprimir("A área do quadrado de lado ", B, " é: ", aQ);
+  Imprimir("A área do retângulo de base ", A, " e altura", B, 
+    " é: ", aR);
+Fim.

@@ -1,0 +1,67 @@
+Algoritmo Raiz;
+var
+  numero : inteiro;
+  i : inteiro;
+  ultimo : inteiro;
+Início
+  Imprimir("Informe um número: ");
+  Ler(numero);
+
+  Para i de 1 até numero passo 1 faça
+    Se (i * i <= numero) então
+      ultimo := i;
+    FimSe;
+  FimPara;
+
+  Imprimir("O número inteiro que mais se aproxima da raiz de ",
+    numero, " é: ", ultimo);
+Fim.
+
+Algoritmo Fatorial;
+var
+  num : inteiro;
+  fat : inteiro;
+  i   : inteiro;
+Início
+  fat := 1;
+  Imprimir("Informe um número: ");
+  Ler(numero);
+
+  Se (numero = 0) Então
+    fat := 1;
+  Senão
+    para i de 1 até numero passo 1 faça
+      fat := fat * i;
+    FimPara;
+  FimSe;
+
+  Imprimir("O fatorial de ", numero, " é: ", fat):
+Fim.
+
+Algoritmo MaiorMenor;
+var
+  maior, menor, numero, i : inteiro;
+Início
+  Para i de 1 até 20 passo 1 faça
+    Imprimir("Informe um número: ");
+    Ler(numero);
+
+    Se (i = 1) Então 
+      Início
+        maior := numero;
+        menor := numero;
+      Fim;
+    Senão
+      Se (numero > maior) Então
+        maior := numero;
+      Senão
+        Se (numero < menor) Então
+          menor := numero;
+        FimSe;
+      FimSe;
+    FimSe;
+  FimPara;
+
+  Imprimir("O maior valor digitado foi: ", maior);
+  Imprimir("O menor valor digitado foi: ", menor);
+Fim.

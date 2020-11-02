@@ -1,0 +1,16 @@
+- Leitura de todas as informações da turma - 0,50
+- Leitura dos dados de todos os alunos da turma - 1,00 
+- Média das provas - 0,30
+- Média dos trabalhos - 0,30
+- Média das provas de recuperação - 0,50
+- Média geral final - 0,50
+- Percentual médio de presença da turma - 0,50
+- Percentual de alunos aprovados - 1,00
+- Percentual de alunos reprovados - 1,00
+- Percentual de alunos reprovados por média - 0,50
+- Percentual de alunos reprovados por falta - 0,50
+- Comentários no algoritmo - 1,00
+- Extra - 0,40
+- Apresentação - 2,00
+
+Nota: 10,0

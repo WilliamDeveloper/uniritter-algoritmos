@@ -1,0 +1,44 @@
+Algoritmo Numeros;
+var
+	x,numero,a,b,c,d,e:inteiro
+	resp:caracter;
+Inicio
+	a:=0;
+	b:=0;
+	c:=0;
+	d:=0;
+	e:=0;
+	resp:='S';
+	Enquanto(resp!='N' OU resp!='n')faça
+	Imprimir("informe um numero:");
+	Ler(numero);
+	Se(numero>=0 E numero<=25)entao
+		a++;  
+	Senao
+		Se(numero>=26 E numero<=50)entao
+			b++;
+		Senao
+			Se(numero>=51 E numero<=75)
+				c++;
+			Senao
+				Se(numero>=76 E numero<=100)
+					d++;
+				Senao
+					Se(!(numero>0 E numero<=100))
+						e++; 
+					FimSe;
+				FimSe;
+			FimSe;
+		FimSe;
+	FimSe;
+	Imprimir("Deseja continuar (S|N)");
+	Ler(resp);
+	Imprimir("-------------------------------------");
+	FimEnquanto;
+	Imprimir("=================================================================");
+	Imprimir("- Foi Digitado no intervalo [0 a 25]:",a,"numero(s).");       
+	Imprimir("- Foi Digitado no intervalo [26 a 50]:",b,"numero(s).");
+	Imprimir("- Foi Digitado no intervalo [51 a 75]:",c,"numero(s).");
+	Imprimir("- Foi Digitado no intervalo [76 a 100]:",d,"numero(s).");
+	Imprimir("- Foi Digitado fora do intervalo de [0 a 100]:",e,"numero(s).");       
+Fim.

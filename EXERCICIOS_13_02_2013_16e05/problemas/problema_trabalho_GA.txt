@@ -1,0 +1,23 @@
+Oi, William.
+
+Boa noite.
+
+Desculpe não responder antes, mas estava viajando desde quinta e só hoje tive acesso ao meu email da faculdade.
+
+Sim, você pode utilizar vetor, mas não vejo uma real necessidade disto.
+
+A quantidade de presença é fornecida em presenças :o)
+
+A média das médias dos alunos é obtida pela soma de todas as médias, dividida pela quantidade de médias somadas.
+
+A média das provas é a soma de todas as provas de todos os alunos dividida pela quantidade de provas somadas.
+
+O mesmo vale para os trabalhos e para as médias.
+
+Quanto à média de presenças é para pegar o percentual de presença de todos os alunos e dividir pelo nro de alunos.
+
+A nota da recuperação deverá ser somada a primeira média obtida e divido por dois para a obtenção de uma nova média.
+
+Abraço.
+
+Fernando

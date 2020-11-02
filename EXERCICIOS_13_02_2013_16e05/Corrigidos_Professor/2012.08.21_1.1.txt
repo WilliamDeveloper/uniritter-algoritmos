@@ -1,0 +1,11 @@
+Algoritmo Ex_3;
+var
+  nome: String[50];
+  idade: integer;
+Início
+  Imprimir("Informe seu nome: ");
+  Ler(nome);
+  Imprimir("Informe sua idade: ");
+  Ler(idade);
+  Imprimir(nome, ", você terá ", idade+11, " anos em 2023.");
+Fim.

@@ -1,0 +1,96 @@
+Algoritmo comentado, explicando o funcionamento lógico
+Marcadores: Algoritmos
+Faça um procedimento que recebe, por parâmetro, a hora de inicio e a hora de término de um jogo, ambas subdivididas em 2 valores distintos: horas e minutos. O procedimento deve retornar, também por parâmetro, a duração do jogo em horas e minutos, considerando que o tempo máximo de duração de um jogo é de 24 horas e que o jogo pode começar em um dia e terminar no outro.
+Algoritmo "tempo de jogo"
+
+Var
+                hi, mi, hf, mf: inteiro
+//hora inicial, minutos inicial, hora final e minutos final, do tipo inteiro
+Inicio
+//*Procedimento ficam dentro do código, porém antes de quaisquer comandos
+//
+//Este procedimento calcula a Duração do jogo
+                Procedimento duracao(ho,mo,ht,mt: inteiro)
+                // HO recebe o valor da variável HI, por parâmetro
+                //MO recebe MI, HT recebe HF, e MT recebe o valor de MF
+                Var
+                               hd,md: inteiro
+                               // hd = quantidade de Hora Total, ==> tempo de Jogo
+                               //md = quantidade de Minutos no tempo do Jogo
+                Inicio
+                               //Hora total Inicia com ZERO
+                               hd <- 0
+                               Se(ho >= ht)entao
+                                               //***Se Hora Inicial for maior doque a Final
+
+                                               //É porque o programa começou em um dia
+
+                                               //E acabou no outro.
+                                               hd <- 12
+                                               ht <- ht + 12
+
+                                               //**Se Hora Inicial for Igual a Final, é porque durou 24 horas
+
+                                               //(Limite de tempo, segundo o enunciado)
+                               Fimse
+                               Se (mo >mt) entao
+
+                                               //Se Minuto Inicial For Maior do que o Final
+                                               hd <- hd - 1
+                                               mt <- mt + 60
+
+                                               //Tira uma Hora do Tempo Total
+
+                                               //E adiciona 60 minutos, ao Minuto Final
+
+                                               //
+                               Fimse
+                               md <- (mt - mo)  //(Aqui, Min Final sempre será Maior ou Igual à Min Inicial)
+                               hd <- hd + (ht -  ho)
+                               //Hora total Recebe Ela, somado de (Hora Final menos Hora Inicial)
+                               //Neste caso, Hora Final, sempre será Maior ou Igual, analogamente
+                               Escreva("O jogo durou ",hd, " horas e ",md, " minutos.")
+                               //MOSTRA a Saída na Tela!
+                Fimprocedimento
+//FIM do procedimento
+//
+//Inicio do Programa principal
+//*(O programa na verdade começa aqui!)
+    Escreval("Informe o horario inicial do jogo: ")
+                Escreva("hora inicial: ")
+                Leia(hi)
+                //Atribui o valor que o usuário digita para Hora Inicial
+                Enquanto (hi > 23) ou (hi < 0) FACA
+                            //**Enquanto a Hora não for digitada corretamente, o código não continua
+                Escreva("Hora invalida. hora inicial: ")
+                            Leia(hi)
+                Fimenquanto
+                Escreva("min inicial: ")
+                Leia(mi)
+                Enquanto (mi > 59) ou (mi < 0) FACA
+                               Escreva("Minutos invalidos. min inicial: ")
+                               Leia(mi)
+                Fimenquanto
+    Escreval("Informe o horario final do jogo: ")
+    Escreva("hora final: ")
+                Leia(hf)
+                Enquanto (hf > 23) ou (hf < 0) FACA
+                Escreva("Hora invalida. hora final: ")
+                            Leia(hf)
+                Fimenquanto
+                Escreva("min final: ")
+                Leia(mf)
+    Enquanto (mf > 59) ou (mf < 0) FACA
+                               Escreva("Minutos invalidos. min final: ")
+                               Leia(mf)
+                Fimenquanto
+//
+//Passa por Parâmetro os valores, para que o procedimento possa
+//Calcular e Escrever o tempo de Duração do Jogo (Horas e Minutos)
+                duracao(hi,mi,hf,mf)
+//Na hora de passar os valores,
+//***Não se esqueça que a ORDEM das variáveis deve estar correta,
+//**Caso contrário, causaria um ERRO LÓGICO, e não de Sintaxe
+Fimalgoritmo
+
+// Espero ter ajudado! :D

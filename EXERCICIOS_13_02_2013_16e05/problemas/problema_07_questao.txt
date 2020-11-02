@@ -1,0 +1,25 @@
+Boa tarde, William.
+
+O intuito do exercício é fazer a compactação do vetor.
+
+Você deve varrer o vetor, encontrando valores iguais e retirando as repetições.
+
+No final, o vetor deverá possuir apenas valores não repetidos e sem lacunas.
+
+Abraço.
+
+Fernando
+
+Citando william clarck <william_clarck@hotmail.com>:
+
+>
+> questao 07 de 15 da cadeira algoritmospede para ler um vetor e retirar os numeros que se repetem
+> logo ficaria....
+> 1 2 2 3 5 5 7
+> 1 2 3 5 7
+> =======qual seria a logica disto... ?ja pensei em atribuir zero ao valor do vetor sempre que for repetido... mas ai se eu fornecer zero na entrada ele nunca ira aparecer..
+>
+>
+>
+> ==================================================================================1º Semestre do curso de Bacharelado em Sistemas de Informação em UniRitter - Campus Porto Alegre -SIS_0149_Algoritmos - (Fernando Henrique Cardoso) - fernando_cardoso@uniritter.edu.br -SIS_0150_Programacao_I - (ISABEL) - Isabel@uniritter.edu.br -SIS_0151_Logica_Matematica- (Clarissa) - clarissa@uniritter.edu.br
+> William Goulart Pacheco

@@ -1,0 +1,118 @@
+Algoritmo Calculadora;
+var
+  num1, num2 : inteiro;
+  resultado : real;
+  operacao : char;
+  opValida : Lógico;
+Início
+  opValida := Verdadeiro;
+
+  Imprimir("Informe um valor:");
+  Ler(num1);
+  Imprimir("Informe outro valor:");
+  Ler(num2);
+  Imprimir("Informe a operação:");
+  Ler(operacao);
+ 
+  Se (operacao = '+') então
+    resultado := num1 + num2;
+  Senão
+    Se (operacao = '-') Então
+      resultado := num1 - num2;
+    Senão
+      Se (operacao = '*') Então
+        resultado := num1 * num2;
+      Senão 
+        Se (operacao = '/') Então
+          resultado := num1 / num2;
+        Senão
+          Início
+            Imprimir("Operação não reconhecida!");
+            opValida := falso;
+          Fim;
+        FimSe;
+      FimSe;
+    FimSe;
+  FimSe;
+
+  Se (opValida = Verdadeiro) Então
+    Imprimir(num1, operacao, num2, " = ", resultado);
+  FimSe;
+Fim.
+
+Algoritmo EscreverMes;
+var
+  mes : inteiro;
+Início
+  Imprimir("Informe o número do mês desejado:");
+  Ler(mes);
+
+  Escolha (mes)
+    1: Imprimir("Janeiro");
+    2: Imprimir("Fevereiro");
+    3: Imprimir("Março");
+    4: Imprimir("Abril");
+    5: Imprimir("Maio");
+    6: Imprimir("Junho");
+    7: Imprimir("Julho");
+    8: Imprimir("Agosto");
+    9: Imprimir("Setembro");
+    10: Imprimir("Outubro");
+    11: Imprimir("Novembro");
+    12: Imprimir("Dezembro");
+    Senão
+      Imprimir("Mês inválido.");
+  FimEscolha;
+Fim.
+
+Algoritmo AumentoSalarial;
+var
+  nome    : String[50];
+  categ   : char;
+  salario : real;
+Início
+  Imprimir("Informe seu nome: ");
+  Ler(nome);
+  Imprimir("Informe seu categoria: ");
+  Ler(categ);
+  Imprimir("Informe seu salario: ");
+  Ler(salario);
+
+  Escolha categ 
+    'A', 'C', 'F', 'H': salario           := salario * 1.1;
+    'B', 'D', 'E', 'I', 'J', 'T': salario := salario * 1.16;
+    'K', 'R': salario                     := salario * 1.25;
+    'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S': salario := salario * 1.35;
+    'U', 'V', 'X', 'Y', 'W', 'Z'          : salario := salario * 1.5;
+  FimEscolha;
+
+  Imprimir(nome, " seu novo salário será: ", salario);
+Fim.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

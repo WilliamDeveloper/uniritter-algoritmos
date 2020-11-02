@@ -1,0 +1,28 @@
+Algortimo SomatorioeProduto;
+Var
+	x,soma,produto:inteiro;
+	resp:caracter;
+Inicio
+	resp:='S';
+	soma:=0;
+	produto:=1;
+	Enquanto(resp!='n' E resp!='N')faça
+		Imprimir("Informe um numero:");
+		Ler(x);
+		Se(x>=0)entao
+			soma+=x;
+		Senao
+			 produto*=x;
+			 
+		FimSe;
+		Imprimir("Deseja Continuar?");
+		Ler(resp);
+	FimEnquanto; 
+	Se(produto:=1)entao
+		produto=0;
+	FimSe;
+	Imprimir("===========================================");
+	Imprimir("A soma dos numeros positivos  deu:",soma);
+	Imprimir("O produto dos numeros negativos deu:",produto);
+	Imprimir("===========================================");
+Fim.

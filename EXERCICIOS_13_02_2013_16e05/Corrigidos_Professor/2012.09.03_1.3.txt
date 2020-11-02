@@ -1,0 +1,27 @@
+Algoritmo MaiorMenor;
+var
+  maior, menor, numero, i : inteiro;
+Início
+  Para i de 1 até 20 passo 1 faça
+    Imprimir("Informe um número: ");
+    Ler(numero);
+
+    Se (i = 1) Então 
+      Início
+        maior := numero;
+        menor := numero;
+      Fim;
+    Senão
+      Se (numero > maior) Então
+        maior := numero;
+      Senão
+        Se (numero < menor) Então
+          menor := numero;
+        FimSe;
+      FimSe;
+    FimSe;
+  FimPara;
+
+  Imprimir("O maior valor digitado foi: ", maior);
+  Imprimir("O menor valor digitado foi: ", menor);
+Fim.

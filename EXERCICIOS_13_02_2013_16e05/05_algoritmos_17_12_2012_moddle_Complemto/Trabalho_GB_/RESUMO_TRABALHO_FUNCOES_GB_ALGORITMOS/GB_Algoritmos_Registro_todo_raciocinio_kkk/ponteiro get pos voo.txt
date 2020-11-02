@@ -1,0 +1,7 @@
+aux.destino=69;
+aux=voo[0];
+
+
+int ptc;
+ptc=getPosvoo(voo,aux);
+printf("%d",ptc);

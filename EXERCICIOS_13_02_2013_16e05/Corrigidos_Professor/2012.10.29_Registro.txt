@@ -1,0 +1,95 @@
+tipo 
+  regCheque = registro
+                numero : inteiro;
+                data : String;
+                valor : real;
+                correntista :  String;
+                banco : String;
+                agencia : String;
+                conta : String;
+              fimRegistro;
+
+  alunoUniritter = registro 
+                     nome : String;
+                     matricula : int;
+                     curso : String;
+                     semestre : String;
+                     rg : String;
+                     dataNasc : String;
+                     idade : inteiro;
+                     endereco : String;
+                     cpf : String;
+                     telefone : String;
+                   fimRegistro;
+
+  funcionario = registro 
+                  nome : String;
+                  codigo : String;
+                  salario : String;
+                  cargaHoraria : inteiro;
+                  endereco : String;
+                  CTPS : String;
+                  dataAdmissao : String; 
+                fimRegistro;
+
+----------------------------------------------------
+Algoritmo Registro;
+const
+  TOTAL = 44;
+tipo 
+  regEmbarque = registro
+  	          numPas : inteiro;
+		  numPoltrona : inteiro;
+		  idade : inteiro;
+		  nome : String;
+		  data : String;
+		  horario : String;
+		  origem : String;
+		  destino : String;
+                fimRegistro;
+
+  regOnibus = registro
+                ano, qtdePass: inteiro;
+		fabricante, modelo: String;
+		empresa, motorista, trajeto: String;
+		passageiros: vetor [1..50] de regEmbarque;
+              fimRegistro;
+var
+  onibus: regOnibus;
+  i, acIdade: inteiro;
+  medIdade: real;
+início
+  acIdade := 0;
+
+  Escreva("Informe o nome da empresa: ");
+  Leia(onibus.empresa);
+  Escreva("Informe o fabricante do ônibus: ");
+  Leia(onibus.fabricante);
+  Escreva("Informe o modelo do ônibus: ");
+  Leia(onibus.modelo);
+  Escreva("Informe o ano de fabricação do ônibus: ");
+  Leia(onibus.ano);
+  Escreva("Informe o nome do motorista: ");
+  Leia(onibus.motorista);
+  Escreva("Informe a quantidade de passageiros: ");
+  Leia(onibus.qtdePass);
+  Escreva("Informe o trajeto da linha: ");
+  Leia(onibus.trajeto);
+
+  Para i de 1 ate TOTAL faca
+    Escreva("Informe o nome do passageiro: ");
+    Leia(onibus.passageiros[i].nome);
+    Escreva("Informe a idade passageiro: ");
+    Leia(onibus.passageiros[i].idade);
+ 
+    acIdade := acIdade + onibus.passageiros[i].idade;
+  FimPara;
+
+  medIdade := acIdade / TOTAL;
+
+  Para i de 1 ate TOTAL faca
+    Se (onibus.passageiros[i].idade > medIdade) Então
+      Escreva("O passageiro ", onibus.passageiros[i].nome, " possui idade superior a média dos passageiros.");
+    FimSe;
+  FimPara;
+fim.

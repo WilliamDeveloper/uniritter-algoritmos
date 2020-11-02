@@ -1,0 +1,101 @@
+Algoritmo Exerc_1;
+const
+  anoAtual = 2012;
+var 
+  ano, idade : inteiro;
+início
+  Imprimir("Informe o seu ano de nascimento: ");
+  Ler(ano);
+  idade := anoAtual - ano;
+ 
+  Imprimir("Sua idade é: ", idade);  
+
+  Se (idade >= 16) então
+    Imprimir("Você já está apto a votar.");
+  FimSe;
+Fim.
+
+Algoritmo Maior;
+var
+  A, B, C: inteiro;
+Início
+  Imprimir("Informe o valor de A: ");
+  Ler(A);
+  Imprimir("Informe o valor de B: ");
+  Ler(B);
+  Imprimir("Informe o valor de C: ");
+  Ler(C);
+
+  Se (A > B) E (B > C) Então
+    Imprimir(A, " ", B, " ", C);
+  FimSe;
+
+  Se (A > B) E (C > B) Então
+    Imprimir(A, " ", C, " ", B);
+  FimSe;
+
+  Se (B > A) E (A > C) Então
+    Imprimir(B, " ", A, " ", C);
+  FimSe;
+
+  Se (B > A) E (C > A) Então
+    Imprimir(B, " ", C, " ", A);
+  FimSe;
+
+  Se (C > B) E (B > A) Então
+    Imprimir(C, " ", B, " ", A);
+  FimSe;
+
+  Se (C > B) E (A > B) Então
+    Imprimir(C, " ", A, " ", B);
+  FimSe;
+Fim.
+
+Algoritmo MaiorEncadeado;
+var
+  A, B, C: inteiro;
+Início
+  Imprimir("Informe o valor de A: ");
+  Ler(A);
+  Imprimir("Informe o valor de B: ");
+  Ler(B);
+  Imprimir("Informe o valor de C: ");
+  Ler(C);
+
+  Se (A > B) E (B > C) Então
+    Imprimir(A, " ", B, " ", C);
+  Senão
+    Se (A > B) E (C > B) Então
+      Imprimir(A, " ", C, " ", B);
+    Senão
+      Se (B > A) E (A > C) Então
+        Imprimir(B, " ", A, " ", C);
+      Senão
+        Se (B > A) E (C > A) Então
+          Imprimir(B, " ", C, " ", A);
+        Senão
+          Se (C > B) E (B > A) Então
+            Imprimir(C, " ", B, " ", A);
+          Senão
+            Se (C > B) E (A > B) Então
+              Imprimir(C, " ", A, " ", B);
+            FimSe;
+          FimSe;
+        FimSe;
+      FimSe;
+    FimSe;
+  FimSe;
+Fim.
+
+
+
+
+
+
+
+
+
+
+
+
+

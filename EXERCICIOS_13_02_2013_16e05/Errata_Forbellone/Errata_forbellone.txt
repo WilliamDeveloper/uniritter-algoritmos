@@ -1,0 +1,19 @@
+Errata
+
+Cap 3 
+
+Pg 49, segundo exemplo, linha 3  Onde lê-se “COM + 1” leia-se “CON + 1” 
+
+
+Cap 5 
+
+Pg 109, Algoritmo 5.4  O comando “feche (Agenda);” (linha 26) deveria constar depois do “fimse;” (linha 27). 
+
+
+Cap 7 
+
+Pg 159, exemplo c  Onde lê-se “locadora(4)” leia-se “começo” Pg 162, exemplo b  Onde lê-se “estacionamento (5)” leia-se “estacionamento (3)” 
+
+Pg 162, exemplo c  Onde lê-se “final” leia-se “0” (zero), nas duas ocorrências 
+
+Pg 164, último exemplo  Onde lê-se “Beltrano” leia-se “Beltrano(4)”, nas três ocorrências 

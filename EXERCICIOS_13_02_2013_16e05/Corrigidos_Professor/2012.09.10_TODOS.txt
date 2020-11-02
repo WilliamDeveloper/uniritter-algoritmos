@@ -1,0 +1,58 @@
+Algoritmo exerc_24;
+Const
+  TAM = 50;
+Var
+  altura, maiorAltura, menorAltura, acumF : real;
+  sexo : char;
+  cont, contM, contF : inteiro;
+  percM, percF : real;
+Início
+  cont  := 1;
+  contM := 0;
+  contF := 0;
+  acumF := 0;
+
+  Enquanto (cont <= TAM) Faça
+    Imprimir("Informe o sexo: (M/F)");
+    Ler(sexo);
+    Imprimir("Informe a altura");
+    Ler(altura);
+
+    Se (sexo = 'F') Então
+      Início
+        acumF := acumF + altura;
+        contF := contF + 1;
+      Fim;
+    Senão
+      contM := contM + 1;
+    FimSe;
+
+    Se (cont = 1) Então
+      Início
+        maiorAltura := altura;
+        menorAltura := altura;
+      Fim;
+    Senão
+      Início
+        Se (altura > maiorAltura) Então
+          maiorAltura := altura;
+        FimSe;
+
+        Se (altura < menorAltura) Então
+          menorAltura := altura;
+        FimSe;        
+      Fim;
+    FimSe;    
+ 
+    cont := cont + 1;
+  FimEnquanto;
+
+  percF := contF / TAM * 100;
+  percM := contM / TAM * 100;
+
+  Imprimir("A maior altura lida foi: ", maiorAltura);
+  Imprimir("A menor altura lida foi: ", menorAltura);
+  Imprimir("A média de altura das mulheres foi: ", acumF/contF);
+  Imprimir("O número de homens é: ", contM);  
+  Imprimir("A diferença do percentual de homens para o de mulheres é: ", percM-percF);
+Fim.

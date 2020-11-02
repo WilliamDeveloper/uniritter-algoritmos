@@ -1,0 +1,22 @@
+Media para aprovação 6
+Media da recuperação 5
+Alunos
+Eron
+10
+10
+10
+10
+100
+Paulo
+5
+5
+5
+5
+100
+Willian
+10
+10
+10
+10
+100
+Para o aluno Paulo teria que pedir a nota da prova de recuperação e não esta pedindo.

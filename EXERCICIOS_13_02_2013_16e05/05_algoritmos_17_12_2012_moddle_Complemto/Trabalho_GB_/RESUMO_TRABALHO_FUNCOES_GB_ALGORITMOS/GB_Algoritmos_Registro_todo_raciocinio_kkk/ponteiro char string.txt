@@ -1,0 +1,15 @@
+void exibe_r3(char var[16][50]){
+
+    strcpy(var[3],"e ai meu 555..");
+    printf("%dº. %s \n",i,var[3]);//teste
+
+    printf("\n");
+}
+
+exibe_r3(&voo[0].lista);
+exibe_r4(&voo[0].lista);
+
+
+ //printf("%dº.jndfjdhdsuhf %s \n",9,voo[0].lista[3]);
+
+

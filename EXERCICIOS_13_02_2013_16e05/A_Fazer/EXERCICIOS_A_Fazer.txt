@@ -1,0 +1,152 @@
+Exercícios
+FAZER ....Forbellone 5.1
+
+1.Forbellone – página 29
+
+2.Dadas as medidas de um trapézio, escrever o algoritmo que calcule e imprima sua área. Lembrar que a área de
+um trapézio é calculada através da equação: ((base maior + base menor) * altura )/2.
+
+3.Escrever um algoritmo que leia o nome do usuário, sua idade e calcule quantos anos ele terá no ano de 2023.
+Mostrar ao final uma mensagem com o nome e a idade calculada.
+
+4.Escrever um algoritmo que lê o código de um funcionário, seu número de horas trabalhadas, o valor que recebe
+por hora e o número de filhos com idade menor do que 14 anos. Para fins de cálculo, considere que o salário família
+é de R$15,00 para cada filho com idade menor do que 14 anos. Calcular o salário deste funcionário e escrevê-lo.
+
+5.Escrever um algoritmo que lê 3 valores A, B e C e calcula: – área do triângulo que tem A por base e B por altura; –
+a área do círculo de raio C; – a área do quadrado de lado B; – a área do retângulo de lados A e B.
+
+6.Forbellone – página 33 Exercícios 1.1, 1.2 e 1.3
+===============================
+Exercícios
+1.Faça um algoritmo que leia o ano de nascimento de uma pessoa, calcule e mostre a sua idade e, também,
+verifique e mostre se ela já tem idade para votar (idade maior que 16 anos).
+
+2.Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um algoritmo que calcule seu peso ideal,
+utilizando as seguintes fórmulas: homens: (72.7 * h) – 58 mulheres: (62.1 * h) – 44.7
+---------------------------------------
+1.Forbellone, pag. 46
+
+2.2 Escreva um algoritmo que leia tres valores inteiros e diferentes e mostre-os em ordem decrescente.Utilize para
+tal uma seleção encadeada.
+-----------------------------------
+1.Forbellone, pag. 46:
+
+2.7 Elabore um algoritmo que, dada a idade de um nadador , classifique-o em uma das seguintes categorias:
+-------------------------------------------------------
+IDADE CATEGORIA
+5 ate 7 anos Infantil A
+8 ate 10anos Infantil B
+11 ate 13anos Juvenil A
+14 ate 17 anos Juvenil B
+Maiores de 18 Anos Adulto
+--------------------------------------------------------
+11. Construa um Algoritmo que seja capaz de dar a classificação olimpica de 3 paises informados. Para cada pais é
+informado o nome, a quantidade de medalhas de ouro, prata e bronze. Considere que cada medalha de Ouro tem
+peso 3, cada prata tem peso 2 e cada bronze peso 1.
+
+2.9 Elabore um Algoritmo que leia o Valor de dois numeros inteiros e a operaçao aritmetica desejada ; calcule ,
+entao a resposta adequada. Utilize os simbolos da tabela a seguir para ler qual a operaçao aritmetica escolhida.
+
+SIMBOLO OPERACAO ARITMETICA
++ Adicao
+- Subtracao
+* Multiplicacao
+/ Divisao
+----------------------------------------------------------------------------------
+7. Escreva um algoritmo que , apartir de um mes fornecido(numero inteiro de 1 a 12), apresente o nome dele por
+extenso ou uma mensagem de mes invalido.
+
+12. Construa um algoritmo que seja capaz de concluir qual dentre os seguintes animais foi escolhido, atraves de
+perguntas e respostas. Animais possiveis: Leao, cavalo, homen, macaco, morcego, baleia, avestruz, pinguim, pato,
+aguia,tartaruga, crocodilo e cobra.
+EXEMPLO:
+eh mamifero?Sim , eh quadrupede? Sim , Eh carnivo? Nao, Eh herbivoro ? Sim , Entao o Animal escolhido foi o
+CAVALO
+-----------------------------------------------
+Exercícios
+1.Faça um algoritmo que leia um número que represente um determinado mês do ano. Após a leitura escreva por
+extenso qual o mês lido. Caso o número digitado não esteja na faixa de 1..12, escreva uma mensagem informando o
+usuário do erro da digitação.
+
+2.Faça um algoritmo que leia um número qualquer. Caso o número seja par menor que 10, escreva ‘Número par
+menor que Dez’, caso o número digitado seja ímpar menor que 10, escreva ‘Número Ímpar menor que Dez’, caso
+contrário, Escreva ‘Número fora do Intervalo’.
+
+3.Uma empresa irá dar um aumento de salário aos seus funcionários de acordo com a categoria de cada
+empregado. O aumento seguirá a seguinte regra: a) Funcionários das categorias A, C, F, e H ganharão 10% de
+aumento sobre o salário b) Funcionários das categorias B, D, E, I, J e T ganharão 15% de aumento sobre o salário c)
+Funcionários das categorias K e R ganharão 25% de aumento sobre o salário d) Funcionários das categorias L, M, N,
+O, P, Q, R e S ganharão 35% de aumento sobre o salário e) Funcionários das categorias U, V, X, Y, W e Z ganharão
+50% de aumento sobre o salário
+
+4.Dado uma STRING terminada com o caracter “$” faça um algoritmo que imprima quantas vogais existem nesta
+STRING.
+
+5.Dado uma STRING terminada com o caracter “$” faça um algoritmo que imprima quantas ocorrências de cada
+vogal em separado existe nesta STRING.
+=======================================================
+3.2- Elabore um algoritmo que calcule um numero inteiro que mais se aproxima da raiz quadrada de um numero
+fornecido pelo usuario.
+
+3.5- Elabore um algoritmo que calcule N!(fatorial de N), sendo que o valor inteiro de N é fornecido pelo usuario.
+sabendo que
+-N!=1x2x3x...x(N-1)xN;
+-0!=1,por definição.
+
+3.7 escreva um Algoritmo que leia um conjunto de 20 numeros inteiros e mostre qual foi o maior e o menor valor
+fornecido.
+------------------------------------------------
+EXERCICIOS
+16. Faça um algoritmo que seja capaz de obter o resultado de uma exponenciação para qualquer base e expoente
+inteiro fornecidos, sem utilizar a operaçao de exponenciação(pot).
+
+24. Construa um algoritmo que leia um conjunto de dados contendo Altura e sexo('M'para masculino e 'F' para
+feminino) de 50 pessoas e , depois calcule e escreva:
+- a maior e a menor Altura do grupo;
+-a media da altura das mulhere;
+- o numero de homens e a diferença porcentual entre eles e as mulheres.
+
+32. Anacleto tem 1,50 metro e cresce 2 contimetros por ano, enquanto Felisberto tem 1,10 metro e cresce 3
+centimetro por ano. Construa um algoritmo que calcule e imprima quantos anos serao necessarios para que
+felisberto seja maior que anacleto.
+----------------------------------------------------
+21. Em uma eleicao presidencial existem quatro candidatos.Os Votos sao informados por Codigo.Os dados utilizados
+para a escrutinagem obedecem a seguinte codificação:
+-1,2,3,4= Voto para os respectivos candidados;
+-5=voto nulo;
+-6= voto em branco;
+elabore um algoritmo que calcule e escreva:
+-o total de votos para cada candidadto e seu percentual sobre o total;
+-o total de votos nulos e seu porcentual sobre o total;
+-o total de voto em branco e seu percentual sobre o total.
+Como finalizador do conjunto de votos tem-se o valor 0.-
+---------------------------------------------------
+30.Calcule o imposto de renda de um grupo de dez contribuintes, considerando que os dados de cada contribuinte ,
+numero do CPF, numero de dependentes e renda mensal sao valores forncecidos pelo usuario. Para cada
+contribuinte sera feito um desconto de 5% do salario minimo por dependente.
+Os valores da aliquota para calculo do imposto sao:
+
+Renda liquida Aliquota
+ate 2 salarios minimos Isento
+2 a 3 salarios minimos 5%
+3 a 5 salarios minimos 10%
+5 a 7 salarios minimos 15%
+Acima de 7 salarios minimos 20%
+
+observe que deve ser fornecido o valor atual do salario minimo para que o algoritmo calcule os valores
+corretamente.
+------------------------------------------
+33.Realizou-se uma pesquisa para determinar alguns dados estatisticos em Relaçao ao conjunto de crianças
+nascidas em um certo periodo de uma determinada maternidade. construa um algoritmo que leia o numero de
+crianças nascidas nesse periodo e. depois em um numero indeterminado de vezes , o sexo de um recem nascido
+prematuro('M'- masculino ou 'F' - feminino) e o numero de dias que este foi mantido na incubadora.
+como finalizador, teremos a letra 'X' . no lugar do sexo da criança.
+determine e imprima:
+- a porcentagem de recem nascidos prematuros;
+- a pocentagem de recem nascidos meninos e meninas do total de prematuros;
+- a media de dias de permanencia dos recem nascidos prematuros na incubadora;
+- o maior numero de dias que um recem nascido prematuro permaneceu na incubadora;
+==
+
+

@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+ 
+
+como lhe havia lhe explicado em aula... 
+
+
+
+
+Observação sobre o codigo do trabalho desenvolvido no coodblocks
+
+o arquivo "funcoes.h" deve ser colocado no seguinte diretorio para que o programa compile normalmente no coodblocks
+
+C:\GB_Algoritmos_Registro\Projeto_GB\
+
+
+
+
+ou mudar o local do arquivo no include onde diz :
+
+
+
+#include "C:\GB_Algoritmos_Registro\Projeto_GB\funcoes.h"
+
+
+
+e assim especificar o local correto do atual destino deste arquivo ...

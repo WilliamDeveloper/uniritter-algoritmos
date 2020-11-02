@@ -1,0 +1,19 @@
+void menu(Tdados voo[TAM],int *aux){
+*aux=20;
+
+}
+
+
+
+int main(void){
+setlocale(LC_ALL, "Portuguese"); //acentua as palavras corretamente
+int flag,i;
+flag=1;
+
+menu(voo,&aux);
+
+
+/*
+aux=20;
+printf("%d",aux);
+*/

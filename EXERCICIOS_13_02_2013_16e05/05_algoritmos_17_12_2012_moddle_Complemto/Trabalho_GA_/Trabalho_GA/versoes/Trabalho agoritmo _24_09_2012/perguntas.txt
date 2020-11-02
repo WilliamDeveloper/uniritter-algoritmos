@@ -1,0 +1,23 @@
+pode usar vetor ? se sim tem necessidade usar ?
+
+quantidade de presensas eh fornecidas em dias ?
+
+a media final eu posso pegar medias acumuladas anteriores e dividir pelo numero de alunos ? 
+ou eh necessario somar tudo para no final fazer um calculo so ?
+
+media das provas eh sobre as provas de cada aluno? e exibir para cada aluno ?
+ou somar as provas de todos alunos e fazer a media ?
+
+media dos trabalhos eh sobre os trabalhos  de cada aluno?e exibir para cada aluno ?
+ou somar os trabalhos de todos alunos e fazer a media ?
+
+media final eh para dizer a media de notas de cada aluno  ?
+ou somar as medias  de todos aluno e fazer uma media disto ?
+
+percentual medio de presensa eh pra dizer qual a presença media ? 
+(exemplo  75%  76%  97%  = 76% o medio..) 
+ou eh para fazer a media de presensa somando todas as presensas  ke neste exemplo acima daria 82,6 ?
+
+
+no caso que fala sobre provas de recuperaçao  nao entendi muito bem sobre como usar a nota da recuperaçao...
+eh para pegar a media  do qual fez o aluno cair em recuperaçao  e somar  a prova de peso 10 e dividir por 2 ?

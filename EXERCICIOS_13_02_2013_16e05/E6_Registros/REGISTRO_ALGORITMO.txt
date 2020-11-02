@@ -1,0 +1,37 @@
+tipo cheque = registro
+ nome : string;
+ data : string;
+ numero : inteiro;
+ valor : real;
+fimregistro;
+
+tipo aluno = registro
+ nome : string;
+ turma : string;
+ matricula : string;
+fimregistro;
+
+tipo funcionario = registro
+  nome : string;
+  sexo : caracter;
+  idade : inteiro;
+  salario : real;
+  cpf : string // melhor para validar
+fimregistro;
+
+var
+chequebancario: cheque;
+alunodauniritter: aluno;
+funcionariodaempresa: funcionario;
+
+
+
+para i de 1 ate 10
+para j de 1 ate 10
+para k de 1 ate 5
+para l de 1 ate 5
+
+fimpara
+fimpara
+fimpara
+fimpara

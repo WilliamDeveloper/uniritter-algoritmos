@@ -1,0 +1,49 @@
+Assunto: Re: Vetor compactado 2   Qui Nov 15, 2007 3:21 pm	
+Acho que agora consegui
+Favor verificar se esta correto este algoritmo
+
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 13/11/2007
+// Seção de Declarações
+var
+v,Y : vetor [1..20] de inteiro
+k,i,j: inteiro
+c: inteiro
+inicio
+Para i de 1 ate 20 faca
+escreva("Digite um valor do elemento da linha" , i,"do vetor K: ")
+leia (v[i])
+fimpara
+
+
+escreval
+escreval("Vetor V ")
+escreval
+para i de 1 ate 20 faca
+escreval (" ",V[i])
+fimpara
+escreval
+escreval
+
+k <- 1
+para i de 1 ate 20 faca
+c <- 1
+para j de i+1 ate 20 faca entao
+se(V[i] = V[j]) entao
+c <- 0
+interrompa
+fimse
+fimpara
+se (c = 1) entao
+Y[k] <- V[i]
+k <- k+1
+fimse
+fimpara
+escreval("Vetor Y compactado")
+para i de 1 ate k-1 faca
+escreval (y[i])
+fimpara
+
+fimalgoritmo

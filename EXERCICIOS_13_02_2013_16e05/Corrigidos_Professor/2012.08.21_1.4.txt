@@ -1,0 +1,16 @@
+Algoritmo Raizes;
+var
+  A, B, C: real;
+  x1, x2, delta: real;
+Início
+  Imprimir("Informe o valor de A: ");
+  Ler(A);
+  Imprimir("Informe o valor de B: ");
+  Ler(B);
+  Imprimir("Informe o valor de C: ");
+  Ler(C);
+  delta <- Pot(B,2) - 4 * A * C;
+  x1 <- -B + Rad(delta) / 2 * A;
+  x2 <- -B - Rad(delta) / 2 * A;
+  Imprimir("As raízes da equação informada são: ", x1, " e ", x2, ".");
+Fim.
