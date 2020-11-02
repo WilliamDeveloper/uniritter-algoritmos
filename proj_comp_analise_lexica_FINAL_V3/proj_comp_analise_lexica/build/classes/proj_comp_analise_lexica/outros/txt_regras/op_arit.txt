@@ -1,0 +1,4 @@
++ (adição)
+- (subtração / menos unário)
+* (multiplicação)
+/ (divisão)
